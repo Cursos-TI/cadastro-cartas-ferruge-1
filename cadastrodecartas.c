@@ -13,24 +13,24 @@ int main() {
 
     printf("CARTA 1:\n");
     printf("digite o estado(uma letra de A a H) :\n");
-    scanf(" %c", &estado); // espaço antes do %c
+    scanf(" %S", &estado);
 
     printf("digite o codigo da carta (letra do estado seguida de um numero de 01 a 04):\n");
     scanf("%s", codigo_da_carta);
 
-    printf("digite o nome da cidade :\n");
-    scanf(" %[^\n]", nome_da_cidade); // lê até o enter, incluindo espaços
+    printf("digite o nome da cidade:\n");
+    scanf(" %[^\n]", nome_da_cidade); 
 
-    printf("digite a populacao :\n");
+    printf("digite a populacao:\n");
     scanf("%d", &populacao);
 
-    printf("digite a area em km2 :\n");
+    printf("digite a area em km2:\n");
     scanf("%f", &area_em_km2);
 
-    printf("digite o numero de pontos turisticos :\n");
+    printf("digite o numero de pontos turisticos:\n");
     scanf("%d", &numero_de_pontos_turisticos);
 
-    printf("digite o PIB :\n");
+    printf("digite o PIB:\n");
     scanf("%f", &PIB_em_bilhoes_de_reais);
 
     printf("CARTA 1:\n");
@@ -44,13 +44,13 @@ int main() {
 
     printf("CARTA 2:\n");
     printf("digite o estado(uma letra de A a H) :\n");
-    scanf(" %c", &estado); // espaço antes do %c
+    scanf(" %c", &estado);
 
     printf("digite o codigo da carta (letra do estado seguida de um numero de 01 a 04):\n");
     scanf("%s", codigo_da_carta);
 
     printf("digite o nome da cidade :\n");
-    scanf(" %[^\n]", nome_da_cidade); // lê até o enter, incluindo espaços
+    scanf(" %[^\n]", nome_da_cidade);
 
     printf("digite a populacao :\n");
     scanf("%d", &populacao);
